@@ -1,7 +1,7 @@
 python-basketball-rss
 =============
 <body>
-  <p>RSS feed for each NHL team providing game recaps from ESPN. Updated daily.</p>
+  <p>RSS feed for each NBA team providing game recaps from ESPN. Updated daily.</p>
   
   <h3>Recommended Use of the Feed</h3>
   <p>I wrote this application to be used with <a href="http://rainmeter.net">Rainmeter</a> which can be downloaded <a href="https://github.com/rainmeter/rainmeter/releases/download/v3.1.0.2190/Rainmeter-3.1.exe">here</a>. An example of how the feed will look: </p>
