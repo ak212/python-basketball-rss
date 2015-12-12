@@ -1,26 +1,29 @@
 # -*- coding: utf-8 -*-
 
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 import logging
 import os
 import re
+import sys
 import threading
 from time import localtime, strftime, mktime
 import urllib2
 
 from bs4 import BeautifulSoup
+import pymysql
 
+import GameData
 import markup
 import retry_decorator
 
 
 __author__ = "Aaron"
-__version__ = 1.11
-__modified__ = '4/3/15'
+__version__ = 2.0
+__modified__ = '12/11/15'
 
 team_abbrvs = ['ATL', 'BOS', 'BKN', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GS',
               'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NO', 'NY',
-              'OKC', 'ORL', 'PHI', 'PHX', 'POR', 'SAC', 'SA', 'TOR', 'UTAH', 'WSH']
+              'OKC', 'ORL', 'PHI', 'PHX', 'POR', 'SAC', 'SA', 'TOR', 'UTA', 'WSH']
 
 team_names = ['Hawks', 'Celtics', 'Nets', 'Hornets', 'Bulls', 'Cavaliers',
               'Mavericks', 'Nuggets', 'Pistons', 'Warriors', 'Rockets', 'Pacers',
@@ -28,109 +31,115 @@ team_names = ['Hawks', 'Celtics', 'Nets', 'Hornets', 'Bulls', 'Cavaliers',
               'Pelicans', 'Knicks', 'Thunder', 'Magic', '76ers', 'Suns',
               'Trail Blazers', 'Kings', 'Spurs', 'Raptors', 'Jazz', 'Wizards']
 
-global total_games
-total_games = 0
+logger = None
+dbLastDate = None
+totalGames = None
 
 file_name = str(date.today()) + '.log'
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-dest_dir = os.path.join(script_dir, "logs")
+def initLogging():
+   global logger
+   fileName = str(date.today()) + '.log'
    
-try:
-   os.makedirs(dest_dir)
-except OSError:
-   pass
-
-path = os.path.join(dest_dir, file_name)
-
-logging.basicConfig(filename=path,
-                    format='(%(threadName)-10s) %(message)s',
-                    level=logging.DEBUG)
-logger = logging.getLogger(__name__)
-
-class GameData(object):
-   '''Class to represent a game played by a hockey team.
-
-   :param link: html link to the game recap from ESPN.com
-   :type link: string
-   :param headline: the headline from the game recap
-   :type headline: string
-   :param date: the date the game was played
-   :type date: string'''
+   scriptDir = os.path.dirname(os.path.abspath(__file__))
+   destDir = os.path.join(scriptDir, "logs")
+      
+   try:
+      os.makedirs(destDir)
+   except OSError:
+      pass
    
-   def __init__(self, link, headline, date):
-      self.id = total_games
-      self.link = link
-      self.headline = headline
-      self.date = date
-      self.result = None
-      
-   def char_convert_link(self):
-      '''Convert ampersands from the character '&' to the character encoding 
-      '&amp;' to properly request html'''
-
-      self.link = re.sub('[&]', '&amp;', self.link)
-      
-   def print_game_data(self):
-      '''Print data of the class'''
-      
-      print self.id, self.headline, self.link, self.date, self.result
-      
-   def list_data(self):
-      '''Return the data of the class as a list'''
-      return [self.headline, self.link, self.date, self.result]
+   path = os.path.join(destDir, fileName)
    
-   def modify_headline(self):
-      '''Change the headline to also include the game date and the result of
-      the game'''
-      
-      headline = self.headline
-      
-      if self.date[4] == "0":
-         self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] "
-      else:
-         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] "
-      try:
-         self.headline = self.headline + self.result + " - " + headline
-      except TypeError:
-         logger.debug("TypeError from: " + self.link)
-         try:
-            self.headline = self.headline + self.result + " - No Headline"
-         except TypeError:
-            self.headline = self.headline + " - " + headline
+   logging.basicConfig(filename=path,
+                       format='(%(threadName)-10s) %(message)s',
+                       level=logging.DEBUG)
+   logger = logging.getLogger(__name__)
+
+def initDB():
+   return pymysql.connect(host='localhost', port=3306, user='root', passwd=sys.argv[1], db='NBA')
+
+def insertGame(gameData, teamAb, teamName):
+   connection = initDB()
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "INSERT INTO `GameData` VALUES (%s, %s, %s, %s, %s, %s, %s)"
+         cursor.execute(sql, (gameData.id, gameData.link, gameData.headline,
+                              gameData.date, gameData.result, teamAb, teamName))
+
+      connection.commit()
+
+   finally:
+      connection.close()
+
+def retrieveGames(teamAb):
+   connection = initDB()
+   result = None
+   games = []
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "SELECT * FROM `GameData` WHERE `team_ab`=%s"
+         cursor.execute(sql, (teamAb))
+         result = cursor.fetchall()
+
+   finally:
+      connection.close()
+    
+   for game in result:
+      games.append(GameData.GameData(game[0], game[1], game[2], game[3], game[4]))
+
+   return games
+
+def getTotalGames():
+   global totalGames
+   connection = initDB()
+   result = None
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "SELECT max(id) FROM `GameData`"
+         cursor.execute(sql)
+         result = cursor.fetchone()
+
+   finally:
+      connection.close()
+   
+   if result[0] != None:
+      totalGames = int(result[0]) + 1
+   else:
+      totalGames = 0
+
+def getLastDate():
+   global dbLastDate
+   global totalGames
+   
+   connection = initDB()
+   daysAgo = 365
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "SELECT game_date FROM `GameData` WHERE `id`=%s"
+         cursor.execute(sql, (str(totalGames)))
+         result = cursor.fetchone()
          
-   def find_winner(self, team_name, soup):
-      '''Find the winner of the hockey game through the game recap.
-   
-      :param team_name: the name of the hockey team; used to check if this team
-      was the winner
-      :type team_name: string
-      :param soup: the source file of the recap page
-      :type soup: string'''
-      
-      matchup = soup.find(class_="matchup")
-      home = matchup.find(class_="team home")
-      home_team = str(home.find('a').text)
-      home_score = int(home.find('span').text)
-      away_score = int(matchup.find(class_="team away").find("span").text)
-                     
-      home = home_team == team_name
-      
-      if home_score > away_score and home:
-         result = "W"
-      elif home_score < away_score and home:
-         result = "L"
-      elif home_score > away_score:
-         result = "L"
-      elif home_score < away_score:
-         result = "W"
-      else:
-         logger.debug("Error determining winner from: " + self.link)
-         result = ""
+         currentDate = date.today()
+       
+         if result != None:
+            for dateDB in result:
+               # whatever the date string is
+               formatDate = datetime.strptime(dateDB, "%Y%m%d").date()
+               
+               daysAgo = min((currentDate - formatDate).days, daysAgo)
 
-      self.result = result
-   
-def page_response(link):
+   finally:
+      connection.close()
+    
+    
+   dbLastDate = currentDate - timedelta(days=daysAgo)
+
+def pageResponse(link):
    '''Retrieve the source code of the page
 
    :param link: the link to the page that will be scraped
@@ -141,7 +150,7 @@ def page_response(link):
    
    return BeautifulSoup(page_source)
 
-def thread_jumpoff(team_ab, team_name):
+def teamExtractAndMarkup(team_ab, team_name):
    '''Intermediary function between the main function and the game extraction
    and xml generation
 
@@ -150,7 +159,7 @@ def thread_jumpoff(team_ab, team_name):
    :param team_name: the team's name
    :type team_name: string'''
    
-   games = extract_game_data(team_ab, team_name)
+   games = extractGameData(team_ab, team_name)
    games.sort(key=lambda x: x.date, reverse=True)
      
    markup.xml_markup(games, team_ab, team_name)
@@ -158,7 +167,7 @@ def thread_jumpoff(team_ab, team_name):
    logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + 
                " completed with " + str(len(games)) + " games logged")
 
-def extract_game_data(team_ab, team_name):
+def extractGameData(teamAb, teamName):
    '''Extract the game data (date, headline, result) for each game the team 
    has played.
 
@@ -167,42 +176,59 @@ def extract_game_data(team_ab, team_name):
    :param team_name: the team's name
    :type team_name: string'''
    
-   games = []
-   link = "http://espn.go.com/nba/team/schedule/_/name/" + team_ab
-   soup = page_response(link)
-   global total_games
+   global totalGames
+   global logger
+   
+   games = retrieveGames(teamAb)
+   links = [game.link for game in games]
+   schedLink = "http://espn.go.com/nba/team/schedule/_/name/" + teamAb
+   soup = pageResponse(schedLink)
    
    for div in soup.find_all(attrs={"class" : "score"}):
-      link_ending = str(div.find('a').get('href').encode('utf-8', 'ignore'))
-      recap_link = "http://espn.go.com" + link_ending
-#      print recap_link
+      recapLinkEnding = str(div.find('a').get('href').encode('utf-8', 'ignore'))
+      if "recap" in recapLinkEnding:
+         recapLink = "http://espn.go.com" + recapLinkEnding
+         
+         if recapLink not in links:
+            boxscoreLink = "http://espn.go.com/nba/boxscore?gameId=" + recapLink[32:]
+            
+            recapLinkSoup = pageResponse(recapLink)
+            gameHeadline = getGameHeadline(recapLinkSoup, recapLink)
+            gameDate = getGameDate(recapLinkSoup, recapLink)
       
-      boxscore_link = "http://espn.go.com/nba/boxscore?gameId=" + recap_link[32:]
+            if gameDate == "PRE":
+               formattedDate = datetime.strptime("20150901", "%Y%m%d").date()
+            elif gameDate != None:
+               formattedDate = datetime.strptime(gameDate, "%Y%m%d").date()
+            else:
+               formattedDate = datetime.strptime("20150901", "%Y%m%d").date()
+             
+            formattedDate = formattedDate - timedelta(days=1)
+             
+            if (formattedDate - dbLastDate).days > 0:
+               newGame = GameData.GameData(totalGames, recapLink, gameHeadline, re.sub('-', '', str(formattedDate)))
+         
+               totalGames += 1
+               
+               newGame.charConvertLink()
+               boxscoreLinkSoup = pageResponse(boxscoreLink)
+               newGame.findWinner(teamName, boxscoreLink, boxscoreLinkSoup)
+               newGame.modifyHeadline()
+               #      newGame.print_game_data()
+               insertGame(newGame, teamAb, teamName)
+               games.append(newGame)
 
-      recap_link_soup = page_response(recap_link)
-      game_headline = get_game_headline(recap_link_soup, recap_link)
-      
-      boxscore_link_soup = page_response(boxscore_link)
-      game_date = get_game_date(boxscore_link_soup)
-
-      new_game = GameData(recap_link, game_headline, game_date)
-      total_games += 1
-      
-      new_game.char_convert_link()
-      new_game.find_winner(team_name, boxscore_link_soup)
-      new_game.modify_headline()
-      
-#      new_game.print_game_data()
-
-      games.append(new_game)
+         else:
+            logger.debug("Already have game with link " + recapLink)
       
    return games
+
 
 @retry_decorator.retry(urllib2.URLError, logger, tries=4, delay=3, backoff=2)
 def urlopen_with_retry(link):
    return urllib2.urlopen(link)
 
-def get_game_headline(soup, link):
+def getGameHeadline(soup, link):
    '''Extract the headline from the page source.
 
    :param soup: the source file of the recap page
@@ -212,43 +238,56 @@ def get_game_headline(soup, link):
    :type link: string'''
    
    try:
-      for meta in soup.findAll('meta', {"property":'og:title'}):
-         return meta.get('content')
+      return soup.title.string
    except urllib2.HTTPError:
       logger.debug('There was an error with the request from: ' + link)
       
-def get_game_date(soup):
+def getGameDate(soup, link):
    '''Extract the headline from the page source.
 
    :param soup: the source file of the recap page
    :type soup: string'''
    
-   for item in soup.find_all('a'):
-      if '/nba/scoreboard?date=' in item.get('href'):
-         return item.get('href')[21:]
+   try:
+      if "boxscore" in link:
+         return "PRE"
+      else:
+         base = soup.findAll('meta', {"name":'DC.date.issued'})
+         date = base[0]['content'].encode('utf-8')[:10]
+         return re.sub('-', '', date)
+   except urllib2.HTTPError:
+      logger.debug('There was an error with the request from: ' + link)
+   except IndexError:
+      logger.debug('Could not extract date from: ' + str(base))
       
 def main():
-   start_time = localtime()
-   logger.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", start_time))
+   global totalGames
+   initLogging()
+   getTotalGames()
+   dbLastDate = getLastDate()
+   
+   startTime = localtime()
+   logger.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", startTime))
    
    threads = []
-   for team_ab, team_name in zip(team_abbrvs, team_names):
-      t = threading.Thread(name="Thread-" + team_ab,
-                           target=thread_jumpoff,
-                           args=(team_ab, team_name))
+   for teamAb, teamName in zip(team_abbrvs, team_names):
+      t = threading.Thread(name="Thread-" + teamAb,
+                           target=teamExtractAndMarkup,
+                           args=(teamAb, teamName))
       threads.append(t)
 
    # Start all threads
-   [x.start() for x in threads]
+   [thread.start() for thread in threads]
 
    # Wait for all of them to finish
-   [x.join() for x in threads]
+   [thread.join() for thread in threads]
    
+   getTotalGames()
    finish_time = localtime()
    logger.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finish_time))
-   logger.info("Total games: " + str(total_games))
+   logger.info("Total games: " + str(totalGames))
    logger.info("Total time: " + 
-               str(timedelta(seconds=mktime(finish_time) - mktime(start_time))))
+               str(timedelta(seconds=mktime(finish_time) - mktime(startTime))))
    
 if __name__ == '__main__':
    main()
