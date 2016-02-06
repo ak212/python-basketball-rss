@@ -3,7 +3,7 @@ import os
 __author__ = "Aaron Koeppel"
 __version__ = 1.0
  
-def xml_markup(games, team_ab, team_name):
+def xml_markup(games, team_ab, team_name, team_record):
    '''Markup the RSS feed using the data obtained.
 
    :param games: list of games that the team played this season
@@ -32,7 +32,7 @@ def xml_markup(games, team_ab, team_name):
       xml.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
       xml.write("<rss version='2.0'>\n")
       xml.write("<channel>\n")
-      xml.write("<title>%s scores</title>\n" % team_name)
+      xml.write("<title>%s - %s</title>\n" % (team_name, team_record))
       xml.write("<description>Latest %s scores</description>\n" % team_name)
       xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/%s</link>\n"
                  % team_ab)
