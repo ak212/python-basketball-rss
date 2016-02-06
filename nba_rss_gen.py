@@ -13,13 +13,14 @@ from bs4 import BeautifulSoup
 import pymysql
 
 import GameData
+import log
 import markup
 import retry_decorator
 
 
 __author__ = "Aaron"
-__version__ = 2.0
-__modified__ = '12/11/15'
+__version__ = 2.1
+__modified__ = '2/5/2016'
 
 team_abbrvs = ['ATL', 'BOS', 'BKN', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GS',
               'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NO', 'NY',
@@ -31,30 +32,11 @@ team_names = ['Hawks', 'Celtics', 'Nets', 'Hornets', 'Bulls', 'Cavaliers',
               'Pelicans', 'Knicks', 'Thunder', 'Magic', '76ers', 'Suns',
               'Trail Blazers', 'Kings', 'Spurs', 'Raptors', 'Jazz', 'Wizards']
 
-logger = None
+logger = log.setup_custom_logger('root')
 dbLastDate = None
 totalGames = None
 
 file_name = str(date.today()) + '.log'
-
-def initLogging():
-   global logger
-   fileName = str(date.today()) + '.log'
-   
-   scriptDir = os.path.dirname(os.path.abspath(__file__))
-   destDir = os.path.join(scriptDir, "logs")
-      
-   try:
-      os.makedirs(destDir)
-   except OSError:
-      pass
-   
-   path = os.path.join(destDir, fileName)
-   
-   logging.basicConfig(filename=path,
-                       format='(%(threadName)-10s) %(message)s',
-                       level=logging.DEBUG)
-   logger = logging.getLogger(__name__)
 
 def initDB():
    return pymysql.connect(host='localhost', port=3306, user='root', passwd=sys.argv[1], db='NBA')
@@ -262,7 +244,6 @@ def getGameDate(soup, link):
       
 def main():
    global totalGames
-   initLogging()
    getTotalGames()
    dbLastDate = getLastDate()
    
