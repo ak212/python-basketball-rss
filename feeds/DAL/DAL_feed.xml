@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Mavericks scores</title>
+<title>Mavericks - 29-25, 3rd in Southwest Division</title>
 <description>Latest Mavericks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DAL</link>
+<item>
+<title>[2/06] W - Parsons has 26 as Mavericks defeat Grizzlies 114-110 in OT</title>
+<link>http://espn.go.com/nba/recap?id=400828652</link>
+</item>
+<item>
+<title>[2/05] L - Spurs record largest halftime lead of any Mavs opponent in rout</title>
+<link>http://espn.go.com/nba/recap?id=400828646</link>
+</item>
 <item>
 <title>[2/03] L - Bosh's 20, Wade's bounce-back lead Heat over Mavericks 93-90</title>
 <link>http://espn.go.com/nba/recap?id=400828628</link>
@@ -21,7 +29,7 @@
 <link>http://espn.go.com/nba/recap?id=400828589</link>
 </item>
 <item>
-<title>[1/27] L - Klay Thompson's big scoring night leads Warriors past Mavs</title>
+<title>[1/27] L - Klay Thompson scores season-high 45 as Warriors avenge loss to Mavs</title>
 <link>http://espn.go.com/nba/recap?id=400828578</link>
 </item>
 <item>

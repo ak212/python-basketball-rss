@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Pistons scores</title>
+<title>Pistons - 27-26, 4th in Central Division</title>
 <description>Latest Pistons scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DET</link>
+<item>
+<title>[2/08] L - Raptors beat Pistons 103-89, have won 14 of 15</title>
+<link>http://espn.go.com/nba/recap?id=400828666</link>
+</item>
+<item>
+<title>[2/06] L - George's 28 points lead Indiana to 112-104 win over Pistons</title>
+<link>http://espn.go.com/nba/recap?id=400828649</link>
+</item>
 <item>
 <title>[2/04] W - Pistons blow 27-point lead, recover to beat Knicks 111-105</title>
 <link>http://espn.go.com/nba/recap?id=400828633</link>

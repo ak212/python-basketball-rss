@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Hawks scores</title>
+<title>Hawks - 30-24, 1st in Southeast Division</title>
 <description>Latest Hawks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/ATL</link>
+<item>
+<title>[2/08] L - Vucevic leads Magic comeback for 117-110 OT win over Hawks</title>
+<link>http://espn.go.com/nba/recap?id=400828667</link>
+</item>
+<item>
+<title>[2/06] L - Magic beat Hawks on Vucevic's shot</title>
+<link>http://espn.go.com/nba/recap?id=400828658</link>
+</item>
+<item>
+<title>[2/05] W - Millsap, Horford pace Hawks past Pacers 102-96</title>
+<link>http://espn.go.com/nba/recap?id=400828637</link>
+</item>
 <item>
 <title>[2/03] W - Hardaway, Scott lead Atlanta Hawks in rout of 76ers, 124-86</title>
 <link>http://espn.go.com/nba/recap?id=400828623</link>

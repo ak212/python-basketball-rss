@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Timberwolves scores</title>
+<title>Timberwolves - 16-37, 5th in Northwest Division</title>
 <description>Latest Timberwolves scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[2/08] L - Pelicans snap 4-game skid with easy win over Wolves</title>
+<link>http://espn.go.com/nba/recap?id=400828669</link>
+</item>
+<item>
+<title>[2/06] W - Timberwolves close out Bulls with 12-0 run to win 112-105</title>
+<link>http://espn.go.com/nba/recap?id=400828653</link>
+</item>
 <item>
 <title>[2/03] W - Wolves beat Clippers 108-102, snapping 14-game skid</title>
 <link>http://espn.go.com/nba/recap?id=400828632</link>

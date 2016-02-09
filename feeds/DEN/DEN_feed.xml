@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Nuggets scores</title>
+<title>Nuggets - 21-32, 4th in Northwest Division</title>
 <description>Latest Nuggets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DEN</link>
+<item>
+<title>[2/08] L - Johnson hits 3-pointer at buzzer, Nets beat Nuggets 105-104</title>
+<link>http://espn.go.com/nba/recap?id=400828665</link>
+</item>
+<item>
+<title>[2/06] W - Mudiay, Nuggets hand Knicks fifth straight loss</title>
+<link>http://espn.go.com/nba/recap?id=400828657</link>
+</item>
+<item>
+<title>[2/05] W - Nuggets rally for win after Bulls lose Butler to injury</title>
+<link>http://espn.go.com/nba/recap?id=400828644</link>
+</item>
 <item>
 <title>[2/03] L - Derrick Favors powers Jazz to 85-81 win over Nuggets</title>
 <link>http://espn.go.com/nba/recap?id=400828630</link>
@@ -65,12 +77,12 @@
 <link>http://espn.go.com/nba/recap?id=400828417</link>
 </item>
 <item>
-<title>[1/03] L - McCollum scores 25 as Trail Blazers beat Nuggets 112-106</title>
-<link>http://espn.go.com/nba/recap?id=400828396</link>
+<title>[1/03] L - Undermanned Warriors hold off Nuggets, stay unbeaten at home</title>
+<link>http://espn.go.com/nba/recap?id=400828391</link>
 </item>
 <item>
-<title>[1/02] L - Undermanned Warriors hold off Nuggets, stay unbeaten at home</title>
-<link>http://espn.go.com/nba/recap?id=400828391</link>
+<title>[1/03] L - McCollum scores 25 as Trail Blazers beat Nuggets 112-106</title>
+<link>http://espn.go.com/nba/recap?id=400828396</link>
 </item>
 <item>
 <title>[12/30] L - McCollum helps Trail Blazers knock off Nuggets 110-103</title>

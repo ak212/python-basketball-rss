@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Knicks scores</title>
+<title>Knicks - 23-31, 3rd in Atlantic Division</title>
 <description>Latest Knicks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NY</link>
+<item>
+<title>[2/06] L - Mudiay, Nuggets hand Knicks fifth straight loss</title>
+<link>http://espn.go.com/nba/recap?id=400828657</link>
+</item>
+<item>
+<title>[2/05] L - Green scores 16 points and Grizzlies hold off Knicks 91-85</title>
+<link>http://espn.go.com/nba/recap?id=400828643</link>
+</item>
 <item>
 <title>[2/04] L - Pistons blow 27-point lead, recover to beat Knicks 111-105</title>
 <link>http://espn.go.com/nba/recap?id=400828633</link>

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lakers scores</title>
+<title>Lakers - 11-43, 5th in Pacific Division</title>
 <description>Latest Lakers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LAL</link>
 <item>
-<title>[2/04] W - Resurgent Kobe Bryant leads Lakers past Pelicans, 99-96</title>
+<title>[2/08] L - George's big finish leads Pacers past Lakers 89-87</title>
+<link>http://espn.go.com/nba/recap?id=400828663</link>
+</item>
+<item>
+<title>[2/06] L - Spurs stretch home win streak, despite Kobe Bryant's 25 points</title>
+<link>http://espn.go.com/nba/recap?id=400828654</link>
+</item>
+<item>
+<title>[2/04] W - Resurgent Kobe Bryant leads Lakers past Pelicans</title>
 <link>http://espn.go.com/nba/recap?id=400828634</link>
 </item>
 <item>
@@ -69,16 +77,16 @@
 <link>http://espn.go.com/nba/recap?id=400828426</link>
 </item>
 <item>
-<title>[1/05] L - Klay has 36, Steph sits late as Warriors beat Lakers 109-88</title>
+<title>[1/05] L - Klay Thompson has 36, Steph Curry sits late as Warriors beat Lakers 109-88</title>
 <link>http://espn.go.com/nba/recap?id=400828411</link>
+</item>
+<item>
+<title>[1/03] W - Williams scores 24, Lakers use late rally to top 76ers 93-84</title>
+<link>http://espn.go.com/nba/recap?id=400828381</link>
 </item>
 <item>
 <title>[1/03] W - Williams scores 30, Lakers beat Suns 97-77 without Kobe</title>
 <link>http://espn.go.com/nba/recap?id=400828397</link>
-</item>
-<item>
-<title>[1/01] W - Williams scores 24, Lakers use late rally to top 76ers 93-84</title>
-<link>http://espn.go.com/nba/recap?id=400828381</link>
 </item>
 <item>
 <title>[12/30] W - Kobe Bryant 's double-double carries Lakers past Celtics</title>

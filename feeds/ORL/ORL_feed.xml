@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Magic scores</title>
+<title>Magic - 23-28, 4th in Southeast Division</title>
 <description>Latest Magic scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/ORL</link>
+<item>
+<title>[2/08] W - Vucevic leads Magic comeback for 117-110 OT win over Hawks</title>
+<link>http://espn.go.com/nba/recap?id=400828667</link>
+</item>
+<item>
+<title>[2/06] W - Magic beat Hawks on Vucevic's shot</title>
+<link>http://espn.go.com/nba/recap?id=400828658</link>
+</item>
+<item>
+<title>[2/05] L - Paul, Jordan power Clippers past Magic 107-93</title>
+<link>http://espn.go.com/nba/recap?id=400828639</link>
+</item>
 <item>
 <title>[2/03] L - Russell Westbrook sizzles to lead Thunder to 12th win in 13 games</title>
 <link>http://espn.go.com/nba/recap?id=400828627</link>
@@ -29,7 +41,7 @@
 <link>http://espn.go.com/nba/recap?id=400828557</link>
 </item>
 <item>
-<title>[1/22] L - Walker leads Hornets to 120-116 OT win over Magic</title>
+<title>[1/23] L - Walker leads Hornets to 120-116 OT win over Magic</title>
 <link>http://espn.go.com/nba/recap?id=400828532</link>
 </item>
 <item>
@@ -61,12 +73,12 @@
 <link>http://espn.go.com/nba/recap?id=400828401</link>
 </item>
 <item>
-<title>[1/02] L - James scores 29, Cavaliers rout Magic 104-79</title>
-<link>http://espn.go.com/nba/recap?id=400828386</link>
+<title>[1/03] L - Wall, Porter lead Wizards to 103-91 win over Magic</title>
+<link>http://espn.go.com/nba/recap?id=400828377</link>
 </item>
 <item>
-<title>[1/01] L - Wall, Porter lead Wizards to 103-91 win over Magic</title>
-<link>http://espn.go.com/nba/recap?id=400828377</link>
+<title>[1/02] L - James scores 29, Cavaliers rout Magic 104-79</title>
+<link>http://espn.go.com/nba/recap?id=400828386</link>
 </item>
 <item>
 <title>[12/30] W - Magic rally in 4th quarter, down Nets 100-93</title>

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bulls scores</title>
+<title>Bulls - 27-24, 3rd in Central Division</title>
 <description>Latest Bulls scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
+<item>
+<title>[2/08] L - Walker scores 30 as Hornets beat Bulls, 108-91</title>
+<link>http://espn.go.com/nba/recap?id=400828661</link>
+</item>
+<item>
+<title>[2/06] L - Timberwolves close out Bulls with 12-0 run to win 112-105</title>
+<link>http://espn.go.com/nba/recap?id=400828653</link>
+</item>
+<item>
+<title>[2/05] L - Nuggets rally for win after Bulls lose Butler to injury</title>
+<link>http://espn.go.com/nba/recap?id=400828644</link>
+</item>
 <item>
 <title>[2/03] W - Moore has career night in place of Butler as Bulls top Kings</title>
 <link>http://espn.go.com/nba/recap?id=400828631</link>
