@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Knicks - 24-33, 3rd in Atlantic Division</title>
+<title>Knicks - 24-35, 3rd in Atlantic Division</title>
 <description>Latest Knicks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NY</link>
 <item>
@@ -231,6 +231,14 @@
 <item>
 <title>[8/31]  - Knicks vs. Timberwolves - Game Recap - February 20, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828708</link>
+</item>
+<item>
+<title>[8/31]  - Raptors vs. Knicks - Game Recap - February 22, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828722</link>
+</item>
+<item>
+<title>[8/31]  - Knicks vs. Pacers - Game Recap - February 24, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828733</link>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lakers - 11-45, 5th in Pacific Division</title>
+<title>Lakers - 11-48, 5th in Pacific Division</title>
 <description>Latest Lakers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LAL</link>
 <item>
@@ -227,6 +227,18 @@
 <item>
 <title>[8/31]  - Spurs vs. Lakers - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828705</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Bulls - Game Recap - February 21, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828718</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Bucks - Game Recap - February 22, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828724</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Grizzlies - Game Recap - February 24, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828738</link>
 </item>
 </channel>
 </rss>

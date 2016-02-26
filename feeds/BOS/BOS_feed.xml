@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Celtics - 32-24, 2nd in Atlantic Division</title>
+<title>Celtics - 33-25, 2nd in Atlantic Division</title>
 <description>Latest Celtics scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
 <item>
@@ -227,6 +227,14 @@
 <item>
 <title>[8/31]  - Celtics vs. Jazz - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828704</link>
+</item>
+<item>
+<title>[8/31]  - Celtics vs. Nuggets - Game Recap - February 21, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828712</link>
+</item>
+<item>
+<title>[8/31]  - Celtics vs. Timberwolves - Game Recap - February 22, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828725</link>
 </item>
 </channel>
 </rss>

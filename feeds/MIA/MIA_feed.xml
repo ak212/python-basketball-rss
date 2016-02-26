@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Heat - 31-24, 1st in Southeast Division</title>
+<title>Heat - 32-25, 1st in Southeast Division</title>
 <description>Latest Heat scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIA</link>
 <item>
@@ -223,6 +223,14 @@
 <item>
 <title>[8/31]  - Wizards vs. Heat - Game Recap - February 20, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828707</link>
+</item>
+<item>
+<title>[8/31]  - Pacers vs. Heat - Game Recap - February 22, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828721</link>
+</item>
+<item>
+<title>[8/31]  - Warriors vs. Heat - Game Recap - February 24, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828735</link>
 </item>
 </channel>
 </rss>
