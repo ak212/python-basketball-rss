@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>76ers - 8-49, 5th in Atlantic Division</title>
+<title>76ers - 8-54, 5th in Atlantic Division</title>
 <description>Latest 76ers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PHI</link>
-<item>
-<title>[2/10] L - Cousins, Collison lead Kings past 76ers</title>
-<link>http://espn.go.com/nba/recap?id=400828678</link>
-</item>
-<item>
-<title>[2/08] L - Redick leads Clippers to 98-92 OT victory over 76ers</title>
-<link>http://espn.go.com/nba/recap?id=400828664</link>
-</item>
-<item>
-<title>[2/06] W - Okafor, Noel lead 76ers past Nets</title>
-<link>http://espn.go.com/nba/recap?id=400828651</link>
-</item>
-<item>
-<title>[2/05] L - Wall's triple-double leads Wizards to 106-94 win over 76ers</title>
-<link>http://espn.go.com/nba/recap?id=400828640</link>
-</item>
 <item>
 <title>[2/03] L - Hardaway, Scott lead Atlanta Hawks in rout of 76ers, 124-86</title>
 <link>http://espn.go.com/nba/recap?id=400828623</link>
@@ -73,12 +57,12 @@
 <link>http://espn.go.com/nba/recap?id=400828399</link>
 </item>
 <item>
-<title>[1/03] L - Williams scores 24, Lakers use late rally to top 76ers 93-84</title>
-<link>http://espn.go.com/nba/recap?id=400828381</link>
-</item>
-<item>
 <title>[1/02] L - Clippers rout NBA-worst 76ers 130-99 for 6th straight win</title>
 <link>http://espn.go.com/nba/recap?id=400828392</link>
+</item>
+<item>
+<title>[1/01] L - Williams scores 24, Lakers use late rally to top 76ers 93-84</title>
+<link>http://espn.go.com/nba/recap?id=400828381</link>
 </item>
 <item>
 <title>[12/30] W - Sixers surprise Kings for 2nd win in 3 games</title>
@@ -217,6 +201,22 @@
 <link>http://espn.go.com/nba/recap?id=400827892</link>
 </item>
 <item>
+<title>[8/31]  - 76ers vs. Wizards - Game Recap - February 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828640</link>
+</item>
+<item>
+<title>[8/31]  - Nets vs. 76ers - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828651</link>
+</item>
+<item>
+<title>[8/31]  - Clippers vs. 76ers - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828664</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. 76ers - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828678</link>
+</item>
+<item>
 <title>[8/31]  - 76ers vs. Pelicans - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828698</link>
 </item>
@@ -231,6 +231,26 @@
 <item>
 <title>[8/31]  - 76ers vs. Pistons - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828734</link>
+</item>
+<item>
+<title>[8/31]  - Wizards vs. 76ers - Game Recap - February 26, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828749</link>
+</item>
+<item>
+<title>[8/31]  - 76ers vs. Magic - Game Recap - February 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828768</link>
+</item>
+<item>
+<title>[8/31]  - 76ers vs. Wizards - Game Recap - February 29, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828772</link>
+</item>
+<item>
+<title>[8/31]  - Hornets vs. 76ers - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828785</link>
+</item>
+<item>
+<title>[8/31]  - Heat vs. 76ers - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828801</link>
 </item>
 </channel>
 </rss>

@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Kings - 24-32, 3rd in Pacific Division</title>
+<title>Kings - 25-36, 3rd in Pacific Division</title>
 <description>Latest Kings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/SAC</link>
-<item>
-<title>[2/10] W - Cousins, Collison lead Kings past 76ers</title>
-<link>http://espn.go.com/nba/recap?id=400828678</link>
-</item>
-<item>
-<title>[2/08] L - James, Irving lead Cavaliers past Kings 120-100</title>
-<link>http://espn.go.com/nba/recap?id=400828662</link>
-</item>
-<item>
-<title>[2/07] L - Avery Bradley's 25 points helps Celtics beat Kings 128-119</title>
-<link>http://espn.go.com/nba/recap?id=400828660</link>
-</item>
-<item>
-<title>[2/05] L - Johnson, Nets have season-best night in beating Kings</title>
-<link>http://espn.go.com/nba/recap?id=400828641</link>
-</item>
 <item>
 <title>[2/03] L - Moore has career night in place of Butler as Bulls top Kings</title>
 <link>http://espn.go.com/nba/recap?id=400828631</link>
@@ -45,7 +29,7 @@
 <link>http://espn.go.com/nba/recap?id=400828561</link>
 </item>
 <item>
-<title>[1/23] W - DeMarcus Cousins scores career-high 48 as Kings ward off Pacers</title>
+<title>[1/23] W - Cousins scores career high 48 as Kings beat Pacers 108-97</title>
 <link>http://espn.go.com/nba/recap?id=400828550</link>
 </item>
 <item>
@@ -217,6 +201,22 @@
 <link>http://espn.go.com/nba/recap?id=400827903</link>
 </item>
 <item>
+<title>[8/31]  - Kings vs. Nets - Game Recap - February 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828641</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. Celtics - Game Recap - February 7, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828660</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. Cavaliers - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828662</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. 76ers - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828678</link>
+</item>
+<item>
 <title>[8/31]  - Nuggets vs. Kings - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828703</link>
 </item>
@@ -227,6 +227,26 @@
 <item>
 <title>[8/31]  - Spurs vs. Kings - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828741</link>
+</item>
+<item>
+<title>[8/31]  - Clippers vs. Kings - Game Recap - February 26, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828754</link>
+</item>
+<item>
+<title>[8/31]  - Thunder vs. Kings - Game Recap - February 29, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828776</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. Grizzlies - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828789</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. Mavericks - Game Recap - March 3, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828797</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. Spurs - Game Recap - March 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828815</link>
 </item>
 </channel>
 </rss>

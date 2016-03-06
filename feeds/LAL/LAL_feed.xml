@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lakers - 11-48, 5th in Pacific Division</title>
+<title>Lakers - 12-51, 5th in Pacific Division</title>
 <description>Latest Lakers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LAL</link>
 <item>
-<title>[2/10] L - Love injured as Cavs down Kobe, Lakers 120-111</title>
-<link>http://espn.go.com/nba/recap?id=400828682</link>
-</item>
-<item>
-<title>[2/08] L - George's big finish leads Pacers past Lakers 89-87</title>
-<link>http://espn.go.com/nba/recap?id=400828663</link>
-</item>
-<item>
-<title>[2/06] L - Spurs stretch home win streak, despite Kobe Bryant's 25 points</title>
-<link>http://espn.go.com/nba/recap?id=400828654</link>
-</item>
-<item>
-<title>[2/04] W - Resurgent Kobe Bryant leads Lakers past Pelicans</title>
+<title>[2/04] W - Resurgent Kobe Bryant leads Lakers past Pelicans, 99-96</title>
 <link>http://espn.go.com/nba/recap?id=400828634</link>
 </item>
 <item>
@@ -81,16 +69,16 @@
 <link>http://espn.go.com/nba/recap?id=400828426</link>
 </item>
 <item>
-<title>[1/05] L - Klay Thompson has 36, Steph Curry sits late as Warriors beat Lakers 109-88</title>
+<title>[1/05] L - Klay has 36, Steph sits late as Warriors beat Lakers 109-88</title>
 <link>http://espn.go.com/nba/recap?id=400828411</link>
-</item>
-<item>
-<title>[1/03] W - Williams scores 24, Lakers use late rally to top 76ers 93-84</title>
-<link>http://espn.go.com/nba/recap?id=400828381</link>
 </item>
 <item>
 <title>[1/03] W - Williams scores 30, Lakers beat Suns 97-77 without Kobe</title>
 <link>http://espn.go.com/nba/recap?id=400828397</link>
+</item>
+<item>
+<title>[1/01] W - Williams scores 24, Lakers use late rally to top 76ers 93-84</title>
+<link>http://espn.go.com/nba/recap?id=400828381</link>
 </item>
 <item>
 <title>[12/30] W - Kobe Bryant 's double-double carries Lakers past Celtics</title>
@@ -225,6 +213,18 @@
 <link>http://espn.go.com/nba/recap?id=400827904</link>
 </item>
 <item>
+<title>[8/31]  - Lakers vs. Spurs - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828654</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Pacers - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828663</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Cavaliers - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828682</link>
+</item>
+<item>
 <title>[8/31]  - Spurs vs. Lakers - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828705</link>
 </item>
@@ -239,6 +239,22 @@
 <item>
 <title>[8/31]  - Lakers vs. Grizzlies - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828738</link>
+</item>
+<item>
+<title>[8/31]  - Grizzlies vs. Lakers - Game Recap - February 26, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828755</link>
+</item>
+<item>
+<title>[8/31]  - Nets vs. Lakers - Game Recap - March 1, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828783</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Nuggets - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828793</link>
+</item>
+<item>
+<title>[8/31]  - Hawks vs. Lakers - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828808</link>
 </item>
 </channel>
 </rss>

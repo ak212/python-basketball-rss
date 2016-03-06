@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Rockets - 29-29, 4th in Southwest Division</title>
+<title>Rockets - 30-32, 4th in Southwest Division</title>
 <description>Latest Rockets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/HOU</link>
-<item>
-<title>[2/10] L - Lillard scores 31 as surging Blazers beat Rockets 116-103</title>
-<link>http://espn.go.com/nba/recap?id=400828687</link>
-</item>
-<item>
-<title>[2/09] L - Stephen Curry's 35 points lift Warriors to 42nd straight home win</title>
-<link>http://espn.go.com/nba/recap?id=400828675</link>
-</item>
-<item>
-<title>[2/06] L - Lillard scores 21 to help Portland beat Houston 96-79</title>
-<link>http://espn.go.com/nba/recap?id=400828647</link>
-</item>
 <item>
 <title>[2/04] W - Brewer, Ariza lead Rockets past Suns 111-105</title>
 <link>http://espn.go.com/nba/recap?id=400828636</link>
@@ -85,7 +73,7 @@
 <link>http://espn.go.com/nba/recap?id=400828405</link>
 </item>
 <item>
-<title>[1/03] L - Aldridge has 24 points, Spurs beat Rockets 121-103</title>
+<title>[1/02] L - Aldridge has 24 points, Spurs beat Rockets 121-103</title>
 <link>http://espn.go.com/nba/recap?id=400828389</link>
 </item>
 <item>
@@ -225,6 +213,18 @@
 <link>http://espn.go.com/nba/recap?id=400827897</link>
 </item>
 <item>
+<title>[8/31]  - Trail Blazers vs. Rockets - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828647</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Warriors - Game Recap - February 9, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828675</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Trail Blazers - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828687</link>
+</item>
+<item>
 <title>[8/31]  - Rockets vs. Suns - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828701</link>
 </item>
@@ -235,6 +235,22 @@
 <item>
 <title>[8/31]  - Rockets vs. Trail Blazers - Game Recap - February 25, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828746</link>
+</item>
+<item>
+<title>[8/31]  - Spurs vs. Rockets - Game Recap - February 27, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828759</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Bucks - Game Recap - February 29, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828774</link>
+</item>
+<item>
+<title>[8/31]  - Pelicans vs. Rockets - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828788</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Bulls - Game Recap - March 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828814</link>
 </item>
 </channel>
 </rss>

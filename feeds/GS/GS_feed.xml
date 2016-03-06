@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Warriors - 52-5, 1st in Pacific Division</title>
+<title>Warriors - 55-5, 1st in Pacific Division</title>
 <description>Latest Warriors scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/GS</link>
-<item>
-<title>[2/10] W - Curry flirts with triple-double, Warriors top Suns 112-104</title>
-<link>http://espn.go.com/nba/recap?id=400828686</link>
-</item>
-<item>
-<title>[2/09] W - Stephen Curry's 35 points lift Warriors to 42nd straight home win</title>
-<link>http://espn.go.com/nba/recap?id=400828675</link>
-</item>
-<item>
-<title>[2/06] W - Warriors win 41st straight at home, tie best mark through 50 games</title>
-<link>http://espn.go.com/nba/recap?id=400828656</link>
-</item>
 <item>
 <title>[2/03] W - Steph Curry lights up Wiz with 51 as Warriors win 8th straight</title>
 <link>http://espn.go.com/nba/recap?id=400828626</link>
@@ -29,7 +17,7 @@
 <link>http://espn.go.com/nba/recap?id=400828594</link>
 </item>
 <item>
-<title>[1/27] W - Klay Thompson scores season-high 45 as Warriors avenge loss to Mavs</title>
+<title>[1/27] W - Klay Thompson's big scoring night leads Warriors past Mavs</title>
 <link>http://espn.go.com/nba/recap?id=400828578</link>
 </item>
 <item>
@@ -73,7 +61,7 @@
 <link>http://espn.go.com/nba/recap?id=400828435</link>
 </item>
 <item>
-<title>[1/05] W - Klay Thompson has 36, Steph Curry sits late as Warriors beat Lakers 109-88</title>
+<title>[1/05] W - Klay has 36, Steph sits late as Warriors beat Lakers 109-88</title>
 <link>http://espn.go.com/nba/recap?id=400828411</link>
 </item>
 <item>
@@ -81,7 +69,7 @@
 <link>http://espn.go.com/nba/recap?id=400828407</link>
 </item>
 <item>
-<title>[1/03] W - Undermanned Warriors hold off Nuggets, stay unbeaten at home</title>
+<title>[1/02] W - Undermanned Warriors hold off Nuggets, stay unbeaten at home</title>
 <link>http://espn.go.com/nba/recap?id=400828391</link>
 </item>
 <item>
@@ -213,6 +201,18 @@
 <link>http://espn.go.com/nba/recap?id=400827890</link>
 </item>
 <item>
+<title>[8/31]  - Thunder vs. Warriors - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828656</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Warriors - Game Recap - February 9, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828675</link>
+</item>
+<item>
+<title>[8/31]  - Warriors vs. Suns - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828686</link>
+</item>
+<item>
 <title>[8/31]  - Warriors vs. Trail Blazers - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828702</link>
 </item>
@@ -231,6 +231,18 @@
 <item>
 <title>[8/31]  - Warriors vs. Magic - Game Recap - February 25, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828742</link>
+</item>
+<item>
+<title>[8/31]  - Warriors vs. Thunder - Game Recap - February 27, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828761</link>
+</item>
+<item>
+<title>[8/31]  - Hawks vs. Warriors - Game Recap - March 1, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828782</link>
+</item>
+<item>
+<title>[8/31]  - Thunder vs. Warriors - Game Recap - March 3, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828798</link>
 </item>
 </channel>
 </rss>

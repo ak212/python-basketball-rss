@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Suns - 14-44, 4th in Pacific Division</title>
+<title>Suns - 16-46, 4th in Pacific Division</title>
 <description>Latest Suns scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PHX</link>
-<item>
-<title>[2/10] L - Curry flirts with triple-double, Warriors top Suns 112-104</title>
-<link>http://espn.go.com/nba/recap?id=400828686</link>
-</item>
-<item>
-<title>[2/08] L - Durant, Thunder pull away to beat Suns 122-106</title>
-<link>http://espn.go.com/nba/recap?id=400828670</link>
-</item>
-<item>
-<title>[2/07] L - Hood, Jazz best reeling Suns 98-89 for 6th straight win</title>
-<link>http://espn.go.com/nba/recap?id=400828655</link>
-</item>
 <item>
 <title>[2/04] L - Brewer, Ariza lead Rockets past Suns 111-105</title>
 <link>http://espn.go.com/nba/recap?id=400828636</link>
@@ -69,7 +57,7 @@
 <link>http://espn.go.com/nba/recap?id=400828434</link>
 </item>
 <item>
-<title>[1/06] W - Suns hit season-high 19 3s in 111-102  win over Hornets</title>
+<title>[1/06] W - Suns hit season-high 19 3s in 11-102  win over Hornets</title>
 <link>http://espn.go.com/nba/recap?id=400828420</link>
 </item>
 <item>
@@ -221,6 +209,18 @@
 <link>http://espn.go.com/nba/recap?id=400827901</link>
 </item>
 <item>
+<title>[8/31]  - Jazz vs. Suns - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828655</link>
+</item>
+<item>
+<title>[8/31]  - Thunder vs. Suns - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828670</link>
+</item>
+<item>
+<title>[8/31]  - Warriors vs. Suns - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828686</link>
+</item>
+<item>
 <title>[8/31]  - Rockets vs. Suns - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828701</link>
 </item>
@@ -235,6 +235,22 @@
 <item>
 <title>[8/31]  - Nets vs. Suns - Game Recap - February 25, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828745</link>
+</item>
+<item>
+<title>[8/31]  - Grizzlies vs. Suns - Game Recap - February 27, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828762</link>
+</item>
+<item>
+<title>[8/31]  - Suns vs. Hornets - Game Recap - March 1, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828778</link>
+</item>
+<item>
+<title>[8/31]  - Suns vs. Heat - Game Recap - March 3, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828795</link>
+</item>
+<item>
+<title>[8/31]  - Suns vs. Magic - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828800</link>
 </item>
 </channel>
 </rss>

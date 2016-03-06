@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Mavericks - 30-28, 3rd in Southwest Division</title>
+<title>Mavericks - 33-29, 3rd in Southwest Division</title>
 <description>Latest Mavericks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DAL</link>
-<item>
-<title>[2/09] L - Hayward lifts Jazz over Mavs 121-119 in OT for 7th straight</title>
-<link>http://espn.go.com/nba/recap?id=400828674</link>
-</item>
-<item>
-<title>[2/06] W - Parsons has 26 as Mavericks defeat Grizzlies 114-110 in OT</title>
-<link>http://espn.go.com/nba/recap?id=400828652</link>
-</item>
-<item>
-<title>[2/05] L - Spurs record largest halftime lead of any Mavs opponent in rout</title>
-<link>http://espn.go.com/nba/recap?id=400828646</link>
-</item>
 <item>
 <title>[2/03] L - Bosh's 20, Wade's bounce-back lead Heat over Mavericks 93-90</title>
 <link>http://espn.go.com/nba/recap?id=400828628</link>
@@ -33,7 +21,7 @@
 <link>http://espn.go.com/nba/recap?id=400828589</link>
 </item>
 <item>
-<title>[1/27] L - Klay Thompson scores season-high 45 as Warriors avenge loss to Mavs</title>
+<title>[1/27] L - Klay Thompson's big scoring night leads Warriors past Mavs</title>
 <link>http://espn.go.com/nba/recap?id=400828578</link>
 </item>
 <item>
@@ -225,6 +213,18 @@
 <link>http://espn.go.com/nba/recap?id=400827901</link>
 </item>
 <item>
+<title>[8/31]  - Spurs vs. Mavericks - Game Recap - February 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828646</link>
+</item>
+<item>
+<title>[8/31]  - Mavericks vs. Grizzlies - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828652</link>
+</item>
+<item>
+<title>[8/31]  - Jazz vs. Mavericks - Game Recap - February 9, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828674</link>
+</item>
+<item>
 <title>[8/31]  - Mavericks vs. Magic - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828692</link>
 </item>
@@ -235,6 +235,22 @@
 <item>
 <title>[8/31]  - Thunder vs. Mavericks - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828739</link>
+</item>
+<item>
+<title>[8/31]  - Nuggets vs. Mavericks - Game Recap - February 26, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828753</link>
+</item>
+<item>
+<title>[8/31]  - Timberwolves vs. Mavericks - Game Recap - February 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828769</link>
+</item>
+<item>
+<title>[8/31]  - Magic vs. Mavericks - Game Recap - March 1, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828781</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. Mavericks - Game Recap - March 3, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828797</link>
 </item>
 </channel>
 </rss>

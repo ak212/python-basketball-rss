@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Raptors - 38-18, 1st in Atlantic Division</title>
+<title>Raptors - 41-19, 1st in Atlantic Division</title>
 <description>Latest Raptors scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
-<item>
-<title>[2/10] L - Timberwolves come back from 18 down to stun Raptors, 117-112</title>
-<link>http://espn.go.com/nba/recap?id=400828684</link>
-</item>
-<item>
-<title>[2/08] W - Raptors beat Pistons 103-89, have won 14 of 15</title>
-<link>http://espn.go.com/nba/recap?id=400828666</link>
-</item>
 <item>
 <title>[2/04] W - Raptors hold off Blazers for 110-103 victory</title>
 <link>http://espn.go.com/nba/recap?id=400828635</link>
@@ -213,6 +205,14 @@
 <link>http://espn.go.com/nba/recap?id=400827896</link>
 </item>
 <item>
+<title>[8/31]  - Raptors vs. Pistons - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828666</link>
+</item>
+<item>
+<title>[8/31]  - Raptors vs. Timberwolves - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828684</link>
+</item>
+<item>
 <title>[8/31]  - Raptors vs. Bulls - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828696</link>
 </item>
@@ -227,6 +227,22 @@
 <item>
 <title>[8/31]  - Timberwolves vs. Raptors - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828736</link>
+</item>
+<item>
+<title>[8/31]  - Cavaliers vs. Raptors - Game Recap - February 26, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828751</link>
+</item>
+<item>
+<title>[8/31]  - Raptors vs. Pistons - Game Recap - February 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828766</link>
+</item>
+<item>
+<title>[8/31]  - Jazz vs. Raptors - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828787</link>
+</item>
+<item>
+<title>[8/31]  - Trail Blazers vs. Raptors - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828803</link>
 </item>
 </channel>
 </rss>

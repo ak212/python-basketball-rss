@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Trail Blazers - 30-27, 2nd in Northwest Division</title>
+<title>Trail Blazers - 33-30, 2nd in Northwest Division</title>
 <description>Latest Trail Blazers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/POR</link>
-<item>
-<title>[2/10] W - Lillard scores 31 as surging Blazers beat Rockets 116-103</title>
-<link>http://espn.go.com/nba/recap?id=400828687</link>
-</item>
-<item>
-<title>[2/08] W - Dillard has 33 to lead Blazers past Grizzlies 112-106 in OT</title>
-<link>http://espn.go.com/nba/recap?id=400828668</link>
-</item>
-<item>
-<title>[2/06] W - Lillard scores 21 to help Portland beat Houston 96-79</title>
-<link>http://espn.go.com/nba/recap?id=400828647</link>
-</item>
 <item>
 <title>[2/04] L - Raptors hold off Blazers for 110-103 victory</title>
 <link>http://espn.go.com/nba/recap?id=400828635</link>
@@ -45,7 +33,7 @@
 <link>http://espn.go.com/nba/recap?id=400828526</link>
 </item>
 <item>
-<title>[1/18] W - Trail Blazers rebound from loss to 76ers by beating Wizards</title>
+<title>[1/17] W - Trail Blazers rebound from loss to 76ers by beating Wizards</title>
 <link>http://espn.go.com/nba/recap?id=400828504</link>
 </item>
 <item>
@@ -221,6 +209,18 @@
 <link>http://espn.go.com/nba/recap?id=400827902</link>
 </item>
 <item>
+<title>[8/31]  - Trail Blazers vs. Rockets - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828647</link>
+</item>
+<item>
+<title>[8/31]  - Trail Blazers vs. Grizzlies - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828668</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Trail Blazers - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828687</link>
+</item>
+<item>
 <title>[8/31]  - Warriors vs. Trail Blazers - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828702</link>
 </item>
@@ -231,6 +231,30 @@
 <item>
 <title>[8/31]  - Nets vs. Trail Blazers - Game Recap - February 23, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828731</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Trail Blazers - Game Recap - February 25, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828746</link>
+</item>
+<item>
+<title>[8/31]  - Trail Blazers vs. Bulls - Game Recap - February 27, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828758</link>
+</item>
+<item>
+<title>[8/31]  - Trail Blazers vs. Pacers - Game Recap - February 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828767</link>
+</item>
+<item>
+<title>[8/31]  - Trail Blazers vs. Knicks - Game Recap - March 1, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828780</link>
+</item>
+<item>
+<title>[8/31]  - Trail Blazers vs. Celtics - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828786</link>
+</item>
+<item>
+<title>[8/31]  - Trail Blazers vs. Raptors - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828803</link>
 </item>
 </channel>
 </rss>

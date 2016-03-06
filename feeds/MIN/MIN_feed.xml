@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Timberwolves - 18-40, 5th in Northwest Division</title>
+<title>Timberwolves - 20-43, 5th in Northwest Division</title>
 <description>Latest Timberwolves scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
-<item>
-<title>[2/10] W - Timberwolves come back from 18 down to stun Raptors, 117-112</title>
-<link>http://espn.go.com/nba/recap?id=400828684</link>
-</item>
-<item>
-<title>[2/08] L - Pelicans snap 4-game skid with easy win over Wolves</title>
-<link>http://espn.go.com/nba/recap?id=400828669</link>
-</item>
-<item>
-<title>[2/06] W - Timberwolves close out Bulls with 12-0 run to win 112-105</title>
-<link>http://espn.go.com/nba/recap?id=400828653</link>
-</item>
 <item>
 <title>[2/03] W - Wolves beat Clippers 108-102, snapping 14-game skid</title>
 <link>http://espn.go.com/nba/recap?id=400828632</link>
@@ -221,6 +209,18 @@
 <link>http://espn.go.com/nba/recap?id=400827904</link>
 </item>
 <item>
+<title>[8/31]  - Bulls vs. Timberwolves - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828653</link>
+</item>
+<item>
+<title>[8/31]  - Pelicans vs. Timberwolves - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828669</link>
+</item>
+<item>
+<title>[8/31]  - Raptors vs. Timberwolves - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828684</link>
+</item>
+<item>
 <title>[8/31]  - Timberwolves vs. Grizzlies - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828697</link>
 </item>
@@ -235,6 +235,26 @@
 <item>
 <title>[8/31]  - Timberwolves vs. Raptors - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828736</link>
+</item>
+<item>
+<title>[8/31]  - Timberwolves vs. Pelicans - Game Recap - February 27, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828757</link>
+</item>
+<item>
+<title>[8/31]  - Timberwolves vs. Mavericks - Game Recap - February 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828769</link>
+</item>
+<item>
+<title>[8/31]  - Wizards vs. Timberwolves - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828791</link>
+</item>
+<item>
+<title>[8/31]  - Timberwolves vs. Bucks - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828806</link>
+</item>
+<item>
+<title>[8/31]  - Nets vs. Timberwolves - Game Recap - March 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828813</link>
 </item>
 </channel>
 </rss>

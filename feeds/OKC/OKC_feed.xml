@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Thunder - 41-17, 1st in Northwest Division</title>
+<title>Thunder - 42-20, 1st in Northwest Division</title>
 <description>Latest Thunder scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/OKC</link>
-<item>
-<title>[2/11] W - Thunder beat Pelicans; teams mourn Ingrid Williams' death</title>
-<link>http://espn.go.com/nba/recap?id=400828689</link>
-</item>
-<item>
-<title>[2/08] W - Durant, Thunder pull away to beat Suns 122-106</title>
-<link>http://espn.go.com/nba/recap?id=400828670</link>
-</item>
-<item>
-<title>[2/06] L - Warriors win 41st straight at home, tie best mark through 50 games</title>
-<link>http://espn.go.com/nba/recap?id=400828656</link>
-</item>
 <item>
 <title>[2/03] W - Russell Westbrook sizzles to lead Thunder to 12th win in 13 games</title>
 <link>http://espn.go.com/nba/recap?id=400828627</link>
@@ -221,6 +209,18 @@
 <link>http://espn.go.com/nba/recap?id=400827900</link>
 </item>
 <item>
+<title>[8/31]  - Thunder vs. Warriors - Game Recap - February 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828656</link>
+</item>
+<item>
+<title>[8/31]  - Thunder vs. Suns - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828670</link>
+</item>
+<item>
+<title>[8/31]  - Pelicans vs. Thunder - Game Recap - February 11, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828689</link>
+</item>
+<item>
 <title>[8/31]  - Pacers vs. Thunder - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828699</link>
 </item>
@@ -235,6 +235,22 @@
 <item>
 <title>[8/31]  - Thunder vs. Pelicans - Game Recap - February 25, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828744</link>
+</item>
+<item>
+<title>[8/31]  - Warriors vs. Thunder - Game Recap - February 27, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828761</link>
+</item>
+<item>
+<title>[8/31]  - Thunder vs. Kings - Game Recap - February 29, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828776</link>
+</item>
+<item>
+<title>[8/31]  - Thunder vs. Clippers - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828794</link>
+</item>
+<item>
+<title>[8/31]  - Thunder vs. Warriors - Game Recap - March 3, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828798</link>
 </item>
 </channel>
 </rss>

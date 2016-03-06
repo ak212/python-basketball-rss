@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Nuggets - 23-35, 4th in Northwest Division</title>
+<title>Nuggets - 24-38, 4th in Northwest Division</title>
 <description>Latest Nuggets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DEN</link>
-<item>
-<title>[2/10] W - Nuggets hold off short-handed Pistons 103-92</title>
-<link>http://espn.go.com/nba/recap?id=400828681</link>
-</item>
-<item>
-<title>[2/08] L - Johnson hits 3-pointer at buzzer, Nets beat Nuggets 105-104</title>
-<link>http://espn.go.com/nba/recap?id=400828665</link>
-</item>
-<item>
-<title>[2/06] W - Mudiay, Nuggets hand Knicks fifth straight loss</title>
-<link>http://espn.go.com/nba/recap?id=400828657</link>
-</item>
-<item>
-<title>[2/05] W - Nuggets rally for win after Bulls lose Butler to injury</title>
-<link>http://espn.go.com/nba/recap?id=400828644</link>
-</item>
 <item>
 <title>[2/03] L - Derrick Favors powers Jazz to 85-81 win over Nuggets</title>
 <link>http://espn.go.com/nba/recap?id=400828630</link>
@@ -81,12 +65,12 @@
 <link>http://espn.go.com/nba/recap?id=400828417</link>
 </item>
 <item>
-<title>[1/03] L - Undermanned Warriors hold off Nuggets, stay unbeaten at home</title>
-<link>http://espn.go.com/nba/recap?id=400828391</link>
-</item>
-<item>
 <title>[1/03] L - McCollum scores 25 as Trail Blazers beat Nuggets 112-106</title>
 <link>http://espn.go.com/nba/recap?id=400828396</link>
+</item>
+<item>
+<title>[1/02] L - Undermanned Warriors hold off Nuggets, stay unbeaten at home</title>
+<link>http://espn.go.com/nba/recap?id=400828391</link>
 </item>
 <item>
 <title>[12/30] L - McCollum helps Trail Blazers knock off Nuggets 110-103</title>
@@ -221,6 +205,22 @@
 <link>http://espn.go.com/nba/recap?id=400827897</link>
 </item>
 <item>
+<title>[8/31]  - Bulls vs. Nuggets - Game Recap - February 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828644</link>
+</item>
+<item>
+<title>[8/31]  - Nuggets vs. Knicks - Game Recap - February 7, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828657</link>
+</item>
+<item>
+<title>[8/31]  - Nuggets vs. Nets - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828665</link>
+</item>
+<item>
+<title>[8/31]  - Nuggets vs. Pistons - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828681</link>
+</item>
+<item>
 <title>[8/31]  - Nuggets vs. Kings - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828703</link>
 </item>
@@ -235,6 +235,22 @@
 <item>
 <title>[8/31]  - Nuggets vs. Clippers - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828740</link>
+</item>
+<item>
+<title>[8/31]  - Nuggets vs. Mavericks - Game Recap - February 26, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828753</link>
+</item>
+<item>
+<title>[8/31]  - Grizzlies vs. Nuggets - Game Recap - February 29, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828775</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Nuggets - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828793</link>
+</item>
+<item>
+<title>[8/31]  - Nets vs. Nuggets - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828807</link>
 </item>
 </channel>
 </rss>

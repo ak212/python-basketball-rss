@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Magic - 25-31, 5th in Southeast Division</title>
+<title>Magic - 27-34, 5th in Southeast Division</title>
 <description>Latest Magic scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/ORL</link>
-<item>
-<title>[2/10] L - Leonard lifts Spurs to 98-96 win over the Magic</title>
-<link>http://espn.go.com/nba/recap?id=400828677</link>
-</item>
-<item>
-<title>[2/08] W - Vucevic leads Magic comeback for 117-110 OT win over Hawks</title>
-<link>http://espn.go.com/nba/recap?id=400828667</link>
-</item>
-<item>
-<title>[2/06] W - Magic beat Hawks on Vucevic's shot</title>
-<link>http://espn.go.com/nba/recap?id=400828658</link>
-</item>
-<item>
-<title>[2/05] L - Paul, Jordan power Clippers past Magic 107-93</title>
-<link>http://espn.go.com/nba/recap?id=400828639</link>
-</item>
 <item>
 <title>[2/03] L - Russell Westbrook sizzles to lead Thunder to 12th win in 13 games</title>
 <link>http://espn.go.com/nba/recap?id=400828627</link>
@@ -45,7 +29,7 @@
 <link>http://espn.go.com/nba/recap?id=400828557</link>
 </item>
 <item>
-<title>[1/23] L - Walker leads Hornets to 120-116 OT win over Magic</title>
+<title>[1/22] L - Walker leads Hornets to 120-116 OT win over Magic</title>
 <link>http://espn.go.com/nba/recap?id=400828532</link>
 </item>
 <item>
@@ -77,12 +61,12 @@
 <link>http://espn.go.com/nba/recap?id=400828401</link>
 </item>
 <item>
-<title>[1/03] L - Wall, Porter lead Wizards to 103-91 win over Magic</title>
-<link>http://espn.go.com/nba/recap?id=400828377</link>
-</item>
-<item>
 <title>[1/02] L - James scores 29, Cavaliers rout Magic 104-79</title>
 <link>http://espn.go.com/nba/recap?id=400828386</link>
+</item>
+<item>
+<title>[1/01] L - Wall, Porter lead Wizards to 103-91 win over Magic</title>
+<link>http://espn.go.com/nba/recap?id=400828377</link>
 </item>
 <item>
 <title>[12/30] W - Magic rally in 4th quarter, down Nets 100-93</title>
@@ -213,6 +197,22 @@
 <link>http://espn.go.com/nba/recap?id=400827891</link>
 </item>
 <item>
+<title>[8/31]  - Clippers vs. Magic - Game Recap - February 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828639</link>
+</item>
+<item>
+<title>[8/31]  - Hawks vs. Magic - Game Recap - February 7, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828658</link>
+</item>
+<item>
+<title>[8/31]  - Magic vs. Hawks - Game Recap - February 8, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828667</link>
+</item>
+<item>
+<title>[8/31]  - Spurs vs. Magic - Game Recap - February 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828677</link>
+</item>
+<item>
 <title>[8/31]  - Mavericks vs. Magic - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828692</link>
 </item>
@@ -227,6 +227,26 @@
 <item>
 <title>[8/31]  - Warriors vs. Magic - Game Recap - February 25, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828742</link>
+</item>
+<item>
+<title>[8/31]  - Magic vs. Knicks - Game Recap - February 26, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828750</link>
+</item>
+<item>
+<title>[8/31]  - 76ers vs. Magic - Game Recap - February 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828768</link>
+</item>
+<item>
+<title>[8/31]  - Magic vs. Mavericks - Game Recap - March 1, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828781</link>
+</item>
+<item>
+<title>[8/31]  - Bulls vs. Magic - Game Recap - March 2, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828784</link>
+</item>
+<item>
+<title>[8/31]  - Suns vs. Magic - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828800</link>
 </item>
 </channel>
 </rss>

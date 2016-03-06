@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Heat - 32-25, 1st in Southeast Division</title>
+<title>Heat - 36-26, 1st in Southeast Division</title>
 <description>Latest Heat scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIA</link>
-<item>
-<title>[2/09] L - Aldridge scores 28 and Spurs run away from Heat, 119-101</title>
-<link>http://espn.go.com/nba/recap?id=400828671</link>
-</item>
-<item>
-<title>[2/07] W - Whiteside gets triple-double as Heat hold off Hornets 98-95</title>
-<link>http://espn.go.com/nba/recap?id=400828638</link>
-</item>
-<item>
-<title>[2/07] L - Paul shakes off awful start, leads Clippers past Heat 100-93</title>
-<link>http://espn.go.com/nba/recap?id=400828659</link>
-</item>
 <item>
 <title>[2/03] W - Bosh's 20, Wade's bounce-back lead Heat over Mavericks 93-90</title>
 <link>http://espn.go.com/nba/recap?id=400828628</link>
@@ -85,7 +73,7 @@
 <link>http://espn.go.com/nba/recap?id=400828402</link>
 </item>
 <item>
-<title>[1/03] W - Bosh has 23, leads Heat over Wizards 97-75</title>
+<title>[1/03] W - Bosch has 23, leads Heat over Wizards 97-75</title>
 <link>http://espn.go.com/nba/recap?id=400828395</link>
 </item>
 <item>
@@ -217,6 +205,18 @@
 <link>http://espn.go.com/nba/recap?id=400827895</link>
 </item>
 <item>
+<title>[8/31]  - Heat vs. Hornets - Game Recap - February 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828638</link>
+</item>
+<item>
+<title>[8/31]  - Clippers vs. Heat - Game Recap - February 7, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828659</link>
+</item>
+<item>
+<title>[8/31]  - Spurs vs. Heat - Game Recap - February 9, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828671</link>
+</item>
+<item>
 <title>[8/31]  - Heat vs. Hawks - Game Recap - February 19, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828695</link>
 </item>
@@ -231,6 +231,26 @@
 <item>
 <title>[8/31]  - Warriors vs. Heat - Game Recap - February 24, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828735</link>
+</item>
+<item>
+<title>[8/31]  - Heat vs. Celtics - Game Recap - February 27, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828756</link>
+</item>
+<item>
+<title>[8/31]  - Heat vs. Knicks - Game Recap - February 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828770</link>
+</item>
+<item>
+<title>[8/31]  - Bulls vs. Heat - Game Recap - March 1, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828779</link>
+</item>
+<item>
+<title>[8/31]  - Suns vs. Heat - Game Recap - March 3, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828795</link>
+</item>
+<item>
+<title>[8/31]  - Heat vs. 76ers - Game Recap - March 4, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828801</link>
 </item>
 </channel>
 </rss>
