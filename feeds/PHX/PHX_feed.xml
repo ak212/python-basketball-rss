@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Suns - 17-46, 4th in Pacific Division</title>
+<title>Suns - 17-48, 4th in Pacific Division</title>
 <description>Latest Suns scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PHX</link>
 <item>
@@ -255,6 +255,14 @@
 <item>
 <title>[8/31]  - Suns vs. Grizzlies - Game Recap - March 6, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828819</link>
+</item>
+<item>
+<title>[8/31]  - Knicks vs. Suns - Game Recap - March 9, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828843</link>
+</item>
+<item>
+<title>[8/31]  - Suns vs. Nuggets - Game Recap - March 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828848</link>
 </item>
 </channel>
 </rss>

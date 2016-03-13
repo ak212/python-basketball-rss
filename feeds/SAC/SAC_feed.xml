@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Kings - 25-36, 3rd in Pacific Division</title>
+<title>Kings - 25-39, 3rd in Pacific Division</title>
 <description>Latest Kings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/SAC</link>
 <item>
@@ -247,6 +247,18 @@
 <item>
 <title>[8/31]  - Kings vs. Spurs - Game Recap - March 5, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828815</link>
+</item>
+<item>
+<title>[8/31]  - Kings vs. Pelicans - Game Recap - March 7, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828828</link>
+</item>
+<item>
+<title>[8/31]  - Cavaliers vs. Kings - Game Recap - March 9, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828844</link>
+</item>
+<item>
+<title>[8/31]  - Magic vs. Kings - Game Recap - March 11, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828857</link>
 </item>
 </channel>
 </rss>
