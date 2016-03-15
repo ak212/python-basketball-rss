@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bulls - 32-32, 4th in Central Division</title>
+<title>Bulls - 33-32, 3rd in Central Division</title>
 <description>Latest Bulls scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
 <item>
@@ -259,6 +259,10 @@
 <item>
 <title>[8/31]  - Heat vs. Bulls - Game Recap - March 11, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828853</link>
+</item>
+<item>
+<title>[8/31]  - Bulls vs. Raptors - Game Recap - March 14, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828878</link>
 </item>
 </channel>
 </rss>
