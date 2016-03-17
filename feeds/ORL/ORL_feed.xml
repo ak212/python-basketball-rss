@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Magic - 28-37, 5th in Southeast Division</title>
+<title>Magic - 29-38, 5th in Southeast Division</title>
 <description>Latest Magic scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/ORL</link>
 <item>
@@ -263,6 +263,14 @@
 <item>
 <title>[8/31]  - Magic vs. Trail Blazers - Game Recap - March 12, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828869</link>
+</item>
+<item>
+<title>[8/31]  - Nuggets vs. Magic - Game Recap - March 15, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828885</link>
+</item>
+<item>
+<title>[8/31]  - Magic vs. Hornets - Game Recap - March 16, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828891</link>
 </item>
 </channel>
 </rss>
