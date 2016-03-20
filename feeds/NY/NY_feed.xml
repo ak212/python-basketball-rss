@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Knicks - 28-41, 3rd in Atlantic Division</title>
+<title>Knicks - 28-42, 3rd in Atlantic Division</title>
 <description>Latest Knicks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NY</link>
 <item>
@@ -279,6 +279,10 @@
 <item>
 <title>[8/31]  - Knicks vs. Warriors - Game Recap - March 16, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828898</link>
+</item>
+<item>
+<title>[8/31]  - Knicks vs. Wizards - Game Recap - March 19, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828919</link>
 </item>
 </channel>
 </rss>
