@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lakers - 15-58, 5th in Pacific Division</title>
+<title>Lakers - 15-59, 5th in Pacific Division</title>
 <description>Latest Lakers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LAL</link>
 <item>
@@ -295,6 +295,10 @@
 <item>
 <title>[8/31]  - Wizards vs. Lakers - Game Recap - March 27, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828983</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Jazz - Game Recap - March 28, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400828991</link>
 </item>
 </channel>
 </rss>
