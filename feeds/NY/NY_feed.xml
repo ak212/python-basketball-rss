@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Knicks - 30-45, 3rd in Atlantic Division</title>
+<title>Knicks - 30-46, 3rd in Atlantic Division</title>
 <description>Latest Knicks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NY</link>
 <item>
@@ -303,6 +303,10 @@
 <item>
 <title>[8/31]  - Knicks vs. Pelicans - Game Recap - March 28, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400828989</link>
+</item>
+<item>
+<title>[8/31]  - Knicks vs. Mavericks - Game Recap - March 30, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829004</link>
 </item>
 </channel>
 </rss>
