@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Clippers - 48-28, 2nd in Pacific Division</title>
+<title>Clippers - 50-28, 2nd in Pacific Division</title>
 <description>Latest Clippers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LAC</link>
 <item>
@@ -307,6 +307,14 @@
 <item>
 <title>[8/31]  - Wizards vs. Clippers - Game Recap - April 3, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400829034</link>
+</item>
+<item>
+<title>[8/31]  - Lakers vs. Clippers - Game Recap - April 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829051</link>
+</item>
+<item>
+<title>[8/31]  - Clippers vs. Lakers - Game Recap - April 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829059</link>
 </item>
 </channel>
 </rss>

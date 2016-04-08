@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Rockets - 38-39, 4th in Southwest Division</title>
+<title>Rockets - 38-41, 4th in Southwest Division</title>
 <description>Latest Rockets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/HOU</link>
 <item>
@@ -311,6 +311,14 @@
 <item>
 <title>[8/31]  - Thunder vs. Rockets - Game Recap - April 3, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400829032</link>
+</item>
+<item>
+<title>[8/31]  - Rockets vs. Mavericks - Game Recap - April 6, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829057</link>
+</item>
+<item>
+<title>[8/31]  - Suns vs. Rockets - Game Recap - April 7, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829062</link>
 </item>
 </channel>
 </rss>

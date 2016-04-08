@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Heat - 44-32, 2nd in Southeast Division</title>
+<title>Heat - 46-32, 2nd in Southeast Division</title>
 <description>Latest Heat scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIA</link>
 <item>
@@ -307,6 +307,14 @@
 <item>
 <title>[8/31]  - Heat vs. Trail Blazers - Game Recap - April 2, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400829029</link>
+</item>
+<item>
+<title>[8/31]  - Pistons vs. Heat - Game Recap - April 5, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829042</link>
+</item>
+<item>
+<title>[8/31]  - Bulls vs. Heat - Game Recap - April 7, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829061</link>
 </item>
 </channel>
 </rss>
