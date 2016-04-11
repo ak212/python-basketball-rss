@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Pacers - 42-37, 3rd in Central Division</title>
+<title>Pacers - 43-37, 2nd in Central Division</title>
 <description>Latest Pacers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/IND</link>
 <item>
@@ -319,6 +319,10 @@
 <item>
 <title>[8/31]  - Pacers vs. Raptors - Game Recap - April 8, 2016 - ESPN</title>
 <link>http://espn.go.com/nba/recap?id=400829070</link>
+</item>
+<item>
+<title>[8/31]  - Nets vs. Pacers - Game Recap - April 10, 2016 - ESPN</title>
+<link>http://espn.go.com/nba/recap?id=400829086</link>
 </item>
 </channel>
 </rss>
