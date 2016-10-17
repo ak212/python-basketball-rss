@@ -34,7 +34,7 @@ def xml_markup(games, team_ab, team_name, team_record):
       xml.write("<channel>\n")
       xml.write("<title>%s - %s</title>\n" % (team_name, team_record))
       xml.write("<description>Latest %s scores</description>\n" % team_name)
-      xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/%s</link>\n"
+      xml.write("<link>http://espn.go.com/nba/team/schedule/_/name/%s</link>\n"
                  % team_ab)
    
       for game in games:
