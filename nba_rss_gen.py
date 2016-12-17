@@ -129,7 +129,7 @@ def pageResponse(link):
    response = urlopen_with_retry(link)
    page_source = response.read()
    
-   return BeautifulSoup(page_source)
+   return BeautifulSoup(page_source, "html.parser")
 
 def teamExtractAndMarkup(team_ab, team_name):
    '''Intermediary function between the main function and the game extraction
@@ -251,6 +251,8 @@ def main():
    global totalGames
    getTotalGames()
    dbLastDate = getLastDate()
+   
+   logger.info(sys.path)
    
    startTime = localtime()
    logger.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", startTime))
